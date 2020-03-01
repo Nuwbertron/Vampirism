@@ -309,7 +309,7 @@ public class RenderHandler {
         blur1.getShaderManager().getShaderUniform("Radius").set(Math.round(10 * progress) / 1F);
         blur2.getShaderManager().getShaderUniform("Radius").set(Math.round(10 * progress) / 1F);
         blit1.getShaderManager().getShaderUniform("ColorModulate").set(1F, 0.1F, 0.1F, (1F * progress));
-        blit2.getShaderManager().getShaderUniform("ColorModulate").set(0.1F, 0.1F, 0.2F, (0.7F * progress));
+        blit2.getShaderManager().getShaderUniform("ColorModulate").set(0.3F, 0.3F, 0.3F, (1F * progress));
         blit3.getShaderManager().getShaderUniform("ColorModulate").set(0.1F, 0.1F, 1F, (1F * progress));
 
     }
